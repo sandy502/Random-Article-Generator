@@ -1,14 +1,4 @@
-# import requests
-# from bs4 import BeautifulSoup
-
-# response = requests.get(
-#     url = "https://en.wikipedia.org/wiki/Web_scraping",
-# )
-
-# soup = BeautifulSoup(response.content, 'html.parser')
-# title = soup.find(id="firstHeading")
-# print(title.string)
-# print(response.status_code)
+# The scraper will go to a Wikipedia page, scrape the title, and follow a random link to the next Wikipedia page.
 
 import requests
 from bs4 import BeautifulSoup
